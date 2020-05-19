@@ -55,7 +55,7 @@ public class PlayerHealthController : MonoBehaviour
                 PlayerController.instance.knockBack();
             }
 
-            UIController.instance.updateHealthDisplay();
+            UIController.instance.UpdateHealthDisplay();
         }
     }
 
@@ -68,7 +68,7 @@ public class PlayerHealthController : MonoBehaviour
             currentHealth = maxHealth;
         }
 
-        UIController.instance.updateHealthDisplay();
+        UIController.instance.UpdateHealthDisplay();
 
     } 
 }

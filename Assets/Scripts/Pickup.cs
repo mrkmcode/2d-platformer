@@ -28,6 +28,8 @@ public class Pickup : MonoBehaviour
                 
                 isCollected = true;
                 Destroy(gameObject);
+
+                UIController.instance.UpdateGemCount();
             }
 
             if(isHeal)

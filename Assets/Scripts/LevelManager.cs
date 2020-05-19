@@ -41,6 +41,6 @@ public class LevelManager : MonoBehaviour
 
         PlayerHealthController.instance.currentHealth = PlayerHealthController.instance.maxHealth;
 
-        UIController.instance.updateHealthDisplay(); 
+        UIController.instance.UpdateHealthDisplay(); 
     }
 }
