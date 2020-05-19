@@ -57,5 +57,18 @@ public class PlayerHealthController : MonoBehaviour
 
             UIController.instance.updateHealthDisplay();
         }
+    }
+
+    public void HealPlayer()
+    {
+        currentHealth++;
+        
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        UIController.instance.updateHealthDisplay();
+
     } 
 }
