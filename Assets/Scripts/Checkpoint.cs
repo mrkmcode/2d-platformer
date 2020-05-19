@@ -25,7 +25,7 @@ public class Checkpoint : MonoBehaviour
             
             theSR.sprite = cpOn;
 
-            CheckpointController.instance.SetSpawnPoint(transform.position);
+            CheckpointController.instance.SetSpawnPoint(new Vector3(transform.position.x + 2, transform.position.y, transform.position.z));
         }
     }
 
