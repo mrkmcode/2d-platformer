@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;   
     public float moveSpeed;
     public float jumpForce;
+    public float bounceForce;
     public Rigidbody2D theRB;
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
@@ -86,5 +87,10 @@ public class PlayerController : MonoBehaviour
         theRB.velocity = new Vector2(0f, knockBackForce);
     
         anim.SetTrigger("hurt");
+    }
+
+    public void bounce()
+    {
+        theRB.velocity = new Vector2(theRB.velocity.x, bounceForce);
     }
 }
