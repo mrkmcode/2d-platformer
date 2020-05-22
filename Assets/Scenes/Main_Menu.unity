@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 1016655456}
   - component: {fileID: 1016655455}
   m_Layer: 0
-  m_Name: middle
+  m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 1182530138}
   - component: {fileID: 1182530137}
   m_Layer: 0
-  m_Name: back
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1082,7 +1082,7 @@ GameObject:
   - component: {fileID: 1778394951}
   - component: {fileID: 1778394950}
   m_Layer: 0
-  m_Name: middle (1)
+  m_Name: MiddleFlipped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
